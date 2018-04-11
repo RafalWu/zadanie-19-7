@@ -14,3 +14,6 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
+
+store.dispatch(addComment('pierwszy komentarz'));
+store.dispatch(addComment('drugi komentarz'));

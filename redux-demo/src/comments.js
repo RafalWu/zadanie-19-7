@@ -5,9 +5,15 @@ function comments(state = [], action) {
                 id: action.id,
                 text: action.text,
                 votes: 0
+            }
+            , ...state];
+        case THUMB_UP_COMMENT:
+            return state.map(comment => {
+                if(comment.id === action.id) {
+                return {...comment, votes: comment.votes + 1}
                 }
-        , ...state];
-        ...
+            return comment;
+            });
         default:
             return state;
     }
