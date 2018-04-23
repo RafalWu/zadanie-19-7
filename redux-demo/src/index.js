@@ -5,6 +5,8 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+import { addComent } from './actions.js';
+import reducer from './reducer.js'
 
 const store = createStore(reducer);
 
