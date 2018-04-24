@@ -4,16 +4,10 @@ export const ADD_COMMENT = 'ADD_COMMENT';
 export const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
 export const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
 
-//export ADD_COMMENT;
-//export addComment;
-//export THUMB_UP_COMMENT;
-//export thumbUpComment;
-//export THUMB_DOWN_COMMENT_COMMENT;
-//export thumbDownComment;
+export const addComment;
+export const thumbUpComment;
+export const thumbDownComment;
 
-//const ADD_COMMENT = 'ADD_COMMENT';
-//const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
-//const THUMB_DOWN_COMMENT='THUMB_DOWN_COMMENT'
 
 function addComment(text) {
   return {
