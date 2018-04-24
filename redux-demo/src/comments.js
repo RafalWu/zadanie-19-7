@@ -1,3 +1,8 @@
+import {
+	ADD_COMMENT,
+	THUMB_UP_COMMENT,
+	THUMB_DOWN_COMMENT
+} from './actions.js';
 function comments(state = [], action) {
     switch(action.type) {
         case ADD_COMMENT:
@@ -27,3 +32,4 @@ function comments(state = [], action) {
             return state;
     }
 }
+export default comments;
